@@ -495,9 +495,9 @@ section {
 .card:hover .card-hover-bar { width: 100%; }
 
 /* ── CONTACT ── */
-#contact { text-align: center; }
+/* #contact { text-align: center; } — removed to match left-aligned sections */
 .contact-wrap {
-  max-width: 700px; margin: 0 auto;
+  max-width: 700px;
   background: var(--card-bg);
   border: 1px solid rgba(0,174,239,.2);
   border-radius: 24px; padding: 60px 50px;
@@ -527,7 +527,7 @@ section {
 .contact-icon { font-size: 22px; width: 40px; text-align: center; }
 .contact-item a { color: rgba(255,255,255,.8); text-decoration: none; font-size: 15px; transition: color .3s; }
 .contact-item a:hover { color: var(--cyan2); }
-.contact-social { display: flex; justify-content: center; gap: 18px; margin-top: 36px; }
+.contact-social { display: flex; justify-content: flex-start; gap: 18px; margin-top: 36px; }
 .social-btn {
   width: 50px; height: 50px; border-radius: 50%;
   background: rgba(0,174,239,.1);
