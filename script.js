@@ -85,7 +85,7 @@ const lines = [
   'Unreal Engine 5 · Physics · Blueprints',
   'Unity · C# · Mobile · XR',
   'Real-Time 3D · Virtual Sports · WebAR',
-  '9+ Years · Shipped 15+ Games'
+  '10+ Years · Shipped 15+ Games'
 ];
 let li = 0, ci = 0, del = false;
 const tw = document.getElementById('tw');
